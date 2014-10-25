@@ -1,0 +1,15 @@
+#wrapper {
+  width: 400px;
+  margin: 4em auto 0 auto; }
+  #wrapper .left {
+    width: 47%;
+    text-align: right;
+    float: left; }
+  #wrapper .right {
+    width: 47%;
+    text-align: left;
+    float: right; }
+  #wrapper .btn-group {
+    margin-top: 0.5em; }
+
+/*# sourceMappingURL=main.css.map */

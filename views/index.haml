@@ -1,0 +1,10 @@
+.panel.panel-default#wrapper
+  .panel-body
+
+    .left
+      - @left_pins.each do |pin|
+        = haml :gpio, locals: {pin: pin, left: true}
+
+    .right
+      - @right_pins.each do |pin|
+        = haml :gpio, locals: {pin: pin, left: false}

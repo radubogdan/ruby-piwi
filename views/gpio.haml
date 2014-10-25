@@ -1,0 +1,9 @@
+- if left
+  %span.label.label-default GPIO #{pin}
+
+.btn-group.btn-toggle
+  %button.btn.btn-sm.btn-default ON
+  %button.btn.btn-sm.btn-primary.active OFF
+
+- unless left
+  %span.label.label-default GPIO #{pin}
